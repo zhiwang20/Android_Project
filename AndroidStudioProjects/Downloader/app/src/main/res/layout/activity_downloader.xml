@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DownloaderActivity">
+
+    <TextView
+            android:text="Get 'em All!"
+            android:textSize="24sp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <!-- 地址栏输入框 -->
+        <EditText
+                android:id="@+id/the_url"
+                android:text="http://www.martystepp.com/files/list.txt"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                android:lines="1"
+                android:maxLines="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:text="Go"
+                android:onClick="getListClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <!--
+        <RadioGroup
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                    android:text="one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            <RadioButton
+                    android:text="two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            <RadioButton
+                    android:text="three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            <RadioButton
+                    android:text="four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </RadioGroup>
+    -->
+    <ListView
+            android:id="@+id/list_of_links"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+    </ListView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delay(ms):"
+                android:layout_marginLeft="16dp"
+        />
+
+        <EditText
+                android:id="@+id/delayedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3000"
+                android:layout_marginLeft="16dp"
+        />
+        <CheckBox
+                android:id="@+id/fakebox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fake?"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="16dp"
+        />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Turtle-App</string>
+
+    <string-array name="characters">
+        <item>Leo</item>
+        <item>Mike</item>
+        <item>Don</item>
+        <item>Raph</item>
+    </string-array>
+</resources>

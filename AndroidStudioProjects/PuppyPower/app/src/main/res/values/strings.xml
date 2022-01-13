@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PuppyPower</string>
+
+    <string-array name="puppy_images">
+        <item>barney-and-clyde-01.jpg</item>
+        <item>barney-and-clyde-02.jpg</item>
+        <item>barney-and-clyde-03.jpg</item>
+        <item>barney-and-clyde-04.jpg</item>
+        <item>barney-and-clyde-05.jpg</item>
+        <item>daisy-01.jpg</item>
+        <item>daisy-02.jpg</item>
+        <item>daisy-03.jpg</item>
+        <item>daisy-04.jpg</item>
+    </string-array>
+
+
+</resources>

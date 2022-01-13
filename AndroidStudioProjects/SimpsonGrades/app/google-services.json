@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578943337935",
+    "project_id": "simpsongrades-7cbaa",
+    "storage_bucket": "simpsongrades-7cbaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578943337935:android:2dc65faa18c494624abeba",
+        "android_client_info": {
+          "package_name": "com.example.simpsongrades"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578943337935-423812mo23ev09qheg43hoc65auhij6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoDvOpfGDiPRknl8K6I4Ut59AKSOMqhec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578943337935-423812mo23ev09qheg43hoc65auhij6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
