@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gpc_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="214dp"
+            android:background="@drawable/ic_button"
+            android:drawableLeft="@drawable/ic_chat"
+            android:paddingLeft="22dp"
+            android:drawablePadding="16dp"
+            android:alpha="0.8"
+            android:textColor="#1B1E1F"
+            android:text="@string/chat_button"
+            android:textSize="@dimen/button_text_size"
+            android:textAlignment="viewStart"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="onChatClicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/ic_button"
+            android:drawableStart="@drawable/ic_lock"
+            android:paddingLeft="22dp"
+            android:drawablePadding="16dp"
+            android:alpha="0.8"
+            android:textColor="#1B1E1F"
+            android:text="@string/login_button"
+            android:textSize="@dimen/button_text_size"
+            android:textAlignment="textStart"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="onLoginClicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="213dp"
+            android:background="@drawable/ic_button"
+            android:drawableStart="@drawable/ic_animation"
+            android:paddingLeft="22dp"
+            android:drawablePadding="16dp"
+            android:alpha="0.8"
+            android:textColor="#1B1E1F"
+            android:text="@string/animation_button"
+            android:textSize="@dimen/button_text_size"
+            android:textAlignment="viewStart"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="onAnimationClicked"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
